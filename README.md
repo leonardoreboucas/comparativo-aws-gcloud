@@ -5,10 +5,10 @@
 - Aleteia Patricia F. de Araújo Von Paumgartten
 
 ##### Alunos
-- Hudson
+- Hudson Neves e Silva
 - Francisco Keppler S. Alecrim
 - Leonardo Rebouças de Carvalho
-- Lucelia
+- Lucélia Vieira Mota
 
 ##### Objetivo
 - Executar workloads hadoop em diferentes provedores de núvem
@@ -91,14 +91,14 @@
 - Google Cloud - Região (us-east1-b - Carolina do Sul/US)
   - Serviço: Dataproc  
     - Master: 1 x 4 Cores 8 RAM HD 32Gb
-    - Workers: 1 x 4 Cores 8 RAM HD 32Gb
+    - Workers: 2 x 4 Cores 8 RAM HD 32Gb
   
 - AWS - Região (Carolina do Norte/US)
   - Criação de KeyPair (para acessar às máquinas)
   - Criação de Grupo de Segurança (para liberar acesso à porta 22 SSH)
   - Serviço: EMR
     - Master: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
-    - Workers: 1 x m4.large (4 Cores 8 RAM HD 32Gb)
+    - Workers: 2 x m4.large (4 Cores 8 RAM HD 32Gb)
  
 ##### Utilização
 - Aprovisionar a núvem
