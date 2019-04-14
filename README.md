@@ -1,17 +1,19 @@
-# UNB / Tópicos de Computação em Nuvem - 2018/01
-### Projeto Prático
+# Comparativo do desempenho das nuvens AWS e GoogleCloud no processamento de big data do Programa Bolsa Família
 
-##### Professora 
+##### Autores
 - Aleteia Patricia F. de Araújo Von Paumgartten
-
-##### Alunos
+- Esteyse Glenaise Santana Carneiro
 - Hudson Neves e Silva
 - Francisco Keppler S. Alecrim
 - Leonardo Rebouças de Carvalho
 - Lucélia Vieira Mota
 
 ##### Objetivo
-- Executar workloads hadoop em diferentes provedores de núvem
+- Executar workloads hadoop em diferentes provedores de núvem e comparar seus desempenhos
+
+##### Limitações
+- Os workloads foram desenvolvidos usando URLs que podem ter sido removidas
+- Foram projetados para serem executados em ambiente Linux
 
 ##### Workloads
 - Workload 1 - Calcular a quantidade de bolsas família pagos em 2017 por estado
@@ -106,11 +108,11 @@
 - Baixar este projeto
 
   ```
-  git clone https://github.com/leonardoreboucas/projetonuvem.git
+  git clone https://github.com/leonardoreboucas/comparativo-aws-gcloud.git
   ```
 
   ```
-  cd projetonuvem
+  cd comparativo-aws-gcloud
   ```
 
 - Baixar os dados do Portal da transparência
@@ -155,8 +157,6 @@ Monitores:
 1529085538 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
 1529085540 %Cpu(s): 24.4 us, 18.6 sy, 0.0 ni, 50.1 id, 6.3 wa, 0.0 hi, 0.5 si, 0.0 st
  ```
- 
- 
  
  IO (iotop)
  ```
